@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<ImageView android:id="@+id/mImageView_bbs"
+		android:layout_width="fill_parent" android:layout_height="320px"
+		android:layout_gravity="center_horizontal|top"
+		android:layout_marginTop="36px" android:layout_marginBottom="60px">
+	</ImageView>
+	<TextView android:id="@+id/mTextView_bbs"
+		android:layout_marginTop="10dip" android:layout_gravity="center_horizontal|top"
+		android:gravity="center_vertical|center_horizontal" android:textSize="12sp"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="#AA000000" android:textColor="#ffffffff"
+		android:text="">
+	</TextView>
+
+	<Button android:id="@+id/uploadImg_bbs" android:layout_width="60px"
+		android:textSize="12sp" android:layout_height="wrap_content"
+		android:layout_gravity="bottom|left" android:layout_marginLeft="5px"
+		android:layout_marginBottom="5px" android:text="@string/impPreview_upload">
+	</Button>
+	<Button android:id="@+id/mImageRotate_bbs" android:layout_width="60px"
+		android:layout_marginLeft="75px" android:layout_height="wrap_content"
+		android:textSize="12sp" android:layout_gravity="bottom|left"
+		android:layout_marginBottom="5px" android:text="@string/rotate">
+	</Button>
+	<Button android:id="@+id/imageSummary_bbs" android:layout_width="60px"
+		android:textSize="12sp" android:layout_marginRight="115px"
+		android:layout_height="wrap_content" android:layout_gravity="bottom|right"
+		android:layout_marginBottom="5px" android:text="@string/impPreview_summary">
+	</Button>
+	<Button android:id="@+id/mBoard_bbs" android:layout_width="100px"
+		android:textSize="12sp" android:layout_height="wrap_content"
+		android:layout_gravity="bottom|right" android:layout_marginRight="5px"
+		android:layout_marginBottom="5px" android:text="@string/imgPreview_board">
+	</Button>
+
+</merge>

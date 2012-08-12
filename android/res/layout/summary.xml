@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/summary"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView 
+    	android:id="@+id/title_view"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="@string/title_view"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+    <EditText
+        android:id="@+id/title_edit"
+        android:hint="@string/title_hint"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="fill_horizontal"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:autoText="false"
+        android:capitalize="none"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView
+    	android:id="@+id/description_view"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:text="@string/description_view"
+        android:gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+    <EditText
+        android:id="@+id/description_edit"
+        android:hint="@string/description_hint"
+        android:layout_height="90px"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="fill_horizontal"
+        android:scrollbars="vertical"
+        android:autoText="false"
+        android:capitalize="none"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+</LinearLayout>

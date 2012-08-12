@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">52pai</string>
+	<string name="loading">载入中，请稍后</string>
+	
+	<string name="ok">确定</string>
+	<string name="cancel">取消</string>
+	
+	<string name="camera_filesystem">选择已拍文件</string>
+	
+	<string name="choosemethod">选择上传方式</string>
+	<string name="alert_dialog_password">密码</string>
+	<string name="username_hint">请输入用户名</string>
+	<string name="password_hint">请输入密码</string>
+	<string name="verify">正在验证</string>
+	<string name="upload_multisites">上传至多站点</string>
+	
+	<string name="impPreview_summary">标题</string>
+	<string name="impPreview_upload">上传</string>
+	<string name="rotate">旋转</string>
+	<string name="imgPreview_board">版面</string>
+	
+	<string name="board_prompt">您要上传的版面</string>
+	<string name="board_view">版面名</string>
+	<string name="title_view">标题:</string>
+	<string name="title_hint">请输入标题</string>
+	<string name="description_view">简介:</string>
+	<string name="description_hint">请输入图片简介</string>
+	
+	<string-array name="choosemethod_methods">
+		<item>即拍即传</item>
+		<item>从手机上传已拍图片</item>
+	</string-array>
+
+</resources>

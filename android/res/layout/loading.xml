@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget28" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical">
+	<!-- <ProgressBar android:id="@+id/loading_progress"
+		android:layout_width="80px" android:layout_height="80px"
+		android:layout_marginTop="180px" android:layout_gravity="center_horizontal">
+	</ProgressBar> -->
+	<!-- <TextView android:id="@+id/widget33" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginTop="10px"
+		android:text="@string/loading" android:layout_gravity="center_horizontal">
+	</TextView> -->
+</LinearLayout>

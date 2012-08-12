@@ -1,0 +1,7 @@
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: Midlet Suite Vendor
+MIDlet-Jar-URL: _52pai.jar
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+MIDlet-1: 我爱拍,/boto.png,me.zhaoren._52pai
+MIDlet-Name: 我爱拍
